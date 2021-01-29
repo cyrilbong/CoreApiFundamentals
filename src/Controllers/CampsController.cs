@@ -74,6 +74,7 @@ namespace CoreCodeCamp.Controllers
             }
         }
 
+        [HttpPost]
         public async Task<ActionResult<CampModel>> Post(CampModel model)
         {
             try
